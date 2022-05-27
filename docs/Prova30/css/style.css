@@ -1,1 +1,267 @@
+body{
+    font-family: 'Mulish';
+    letter-spacing: 3px;
+    word-spacing: 1.2px;
+    background-color:rgb(210, 199, 235);
+    overflow-x: hidden;
+}
+header{
+    border:3px solid rgb(188, 144, 238);
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align:center;
+}
+#logo {
+    height: 90px;
+    display: flex;
+    display:inline-block;
+    margin: 5px 25px 5px 30px;
+}
+header h1 {
+    color:rgb(40, 18, 50);
+    font-size:38px;
+    font-weight: bolder;
+    text-shadow: -2px 2px 4px rgb(179, 47, 255);
+}
+.menu-principal {
+    background-color:darkblue;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    padding: 15px 40px;
+    margin:10px 0;
+    text-align:center;
+    height:60px;
+}
+.menu-principal li {
+    display:flex;
+    display:inline-block;
+}
+.menu-principal a {
+    color:white;
+}
+.menu-principal a:hover {
+    color:lightgray;
+    font-size:28px;
+    text-decoration: underline;
+}
+#bem-estar{
+    text-align: center;
+    color:rgb(18,50,18);
+    display:inline-block;
+    width:75%;
+    box-sizing: border-box;
+    height: 100%;
+}
+#bem-estar img{
+    max-width: 1500px;
+    margin:45px 67px 150px 50px;
+}
+#bem-estar p {
+    box-shadow: -3px 2px 15px rgb(219, 144, 238);
+    font-size: 18px;
+    margin: 40px 10px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height:1.8em;
+    padding: 4px 80px;
+    display:inline-block;
+    width:900px;
+   
+}
+.img-fitness {
+    float:right;
+    width:20%;
+}
+.img-fitness img {
+    max-width: 400px;
+    margin-left: -200px;
+    padding-top:100px;
+}
+.footer-content {
+    font-size: 18px;
+    color:rgb(47, 18, 50);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin:50px 0px 20px;
+    width:100%;
+}
+.footer-content {
+    font-size: 18px;
+    color:rgb(50, 18, 47);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin: 50px 0px 20px;
+    width: 100%;
+}
+.footer-content img {
+    width:40px;
+    margin-right:20px;
+}
+.sobre {
+    background-image: url('../img/fitness\ 3.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    width:100%;
+} 
+#content-sobre {
+    background-color: rgba(219, 144, 238, 0.8);
+    box-shadow: -3px 2px 15px rgb(133, 73, 173);
+    font-size: 22px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height:2.5em;
+    padding:2px 80px;
+    display:inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+#content-sobre h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.novidades {
+    background-color:rgb(227, 218, 240);
+    padding: 50px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+#content-novidades article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+section > h3 {
+    color:rgb(47, 19, 56);
+    font-size:50px;
+    font-weight:bolder;
+}
+#content-novidades p {
+    background-color: rgba(226, 212, 231, 0.8);
+    box-shadow:-3px 2px 15px rgb(185, 144, 238);
+    font-size:17px;
+    margin: 45px 30px;
+    text-indent: 4em;
+    text-align: justify;
+    line-height: 2.5em;
+    padding:22px 80px;
+    display: inline-block;
+    width: 50%;
+    font-weight:bold;
+}
+#content-novidade img{
+    max-width: 300px;
+    height:300px;
+    margin:20px;
+}
+#calc-imc{
+    border: 2px solid gray;
+    background-color: rgb(177, 234, 226);
+    display:flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+    padding:40px;
+    width: 30%;
+    height: 340px;
+    margin:120px 40px 100px 100px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+#calc-imc input{
+    width:60%;
+    margin:10px 5px 5px;
+    padding:3px 10px;
+    text-align: center;
+}
+#calc-imc label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+#calc-imc butoton {
+    width:60%;
+    font-size:17px;
+    text-align:center;
+    font-weight: bold;
+    padding: 7px 0px 5px;
+    color: rgb(130, 50, 184);
+    margin-top:auto;
+    box-shadow: -4px 4px 5px gray;
+    border-radius:14px;
+    border:none;
+    position:relative;
+}
+#calc-imc button:hover {
+    color:rgb(146, 50, 184);
+    background-color: rgb(228, 216, 241);
+    box-shadow: -8px 8px 5px lightgray;
+    border:2px solid rgb(133, 213, 244);
+}
+#calc-imc button {
+    width: 60%;
+    font-size:17px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 0px 5px;
+    color:rgb(99, 53, 113);
+    margin-top:auto;
+    box-shadow: -4px 4px 5px gray;
+    border-radius:14px;
+    position:relative;
+}
+#calc-imc butoon:hover{
+    color:rgb(119, 50, 184);
+    background-color: rgb(233, 216, 241);
+    box-shadow: -8px 8px 5px lightgray;
+    border:2px solid rgb(133, 213, 244);
+}
+.result{
+    border:3px solid black;
 
+    width:40%;
+    height:300px;
+    padding:30px;
+    display:glex;
+    flex-flow:column;
+    align-items:center;
+    text-align: center;
+    margin:122px;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+.result h2{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.result div {
+    background-color:rgb(241,227,227);
+    box-shadow:-3px 5px 18px white;
+    max-width:650px;
+    padding: 10px 15px;
+    height:40px;
+    display:inline-block;
+}
+.page-result{
+    display:flex;
+}
+.result img{
+    width:180px;
+    margin:10px;
+    display: inline-block;
+}
